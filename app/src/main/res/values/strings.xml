@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">checkboxes</string>
+    <string name="ingrese_el_primer_n_mero">Ingrese el primer número:</string>
+    <string name="escriba_el_primer_n_mero">Escriba el primer número</string>
+    <string name="ingrese_el_segundo_n_mero">Ingrese el segundo número:</string>
+    <string name="escriba_el_segundo_n_mero">Escriba el segundo número</string>
+    <string name="suma">Suma</string>
+    <string name="resta">Resta</string>
+    <string name="calcular">Calcular</string>
+</resources>

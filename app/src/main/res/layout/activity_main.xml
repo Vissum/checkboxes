@@ -1,0 +1,73 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/number1TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingrese_el_primer_n_mero"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/number1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/escriba_el_primer_n_mero"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <TextView
+        android:id="@+id/number2TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/ingrese_el_segundo_n_mero"
+        android:textSize="20sp"
+        android:layout_marginTop="16dp" />
+
+    <EditText
+        android:id="@+id/number2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autofillHints=""
+        android:hint="@string/escriba_el_segundo_n_mero"
+        android:inputType="number"
+        android:minHeight="48dp"
+        android:textColorHint="#8D6E63"
+        tools:ignore="VisualLintTextFieldSize" />
+
+    <CheckBox
+        android:id="@+id/sumCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/suma" />
+
+    <CheckBox
+        android:id="@+id/subtractCheckBox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/resta" />
+
+    <Button
+        android:id="@+id/calculateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/calcular"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/resultTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
